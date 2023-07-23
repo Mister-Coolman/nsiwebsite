@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Inter:400|Roboto:500");
 
 * {
-    padding: 0px;
+    padding: 0px; /*Test comment*/
     margin: 0px;
     box-sizing: border-box;
 }
