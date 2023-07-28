@@ -251,13 +251,12 @@ li a:hover {
     font-family: var(--font-family-inter);
     font-size: 24px;
     font-weight: 400;
-    left: 130px;
+    left: 152px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    text-align: right;
-    top: 6px;
-    width: 205px;
+    top: 9px;
+    width: 199px;
 }
 
 .aboutmeitem .rectangle {
@@ -282,15 +281,16 @@ li a:hover {
 .aboutmeitem .aboutmebody {
     color: #000000;
     font-family: var(--font-family-inter);
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 400;
-    left: 153px;
+    left: 155px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 45px;
-    width: 182px;
+    top: 47px;
+    width: 186px;
 }
+
 
 .allgroups {
     display: flex;
