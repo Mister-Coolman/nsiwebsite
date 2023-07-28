@@ -25,6 +25,15 @@
 }
 
 @media screen and (max-width: 600px) {
+    .logoimg {
+        position: absolute;
+        top: 0px;
+        height: 9vw;
+        width: 9vw;
+        /*  width: 180px;
+        height: 180px;
+        */
+    }
     .inter-normal-black-52px {
         font-size: 1.4em;
         font-family: var(--font-family-inter);
@@ -55,17 +64,33 @@
     .top-margined {
         margin-top: 15px;
     }
+    #leftindented {
+        padding-left: 10vw
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1440px) {
+    .logoimg {
+        position: absolute;
+        top: 0px;
+        height: 11.2vw;
+        width: 11.2vw;
+        /*  width: 180px;
+        height: 180px;
+        */
+    }
+    .inter-normal-black-52px {
+        font-size: 4vw;
+    }
+    .label-text {
+        font-size: 2vw;
+    }
+    #leftindented {
+        padding-left: 12.2vw
+    }
 }
 
 @media screen and (min-width: 601px) {
-    .inter-normal-black-52px {
-        font-size: 3vw;
-    }
-
-    .label-text {
-        font-size: 1vw;
-    }
-
     .constant-text {
         font-size: 24px;
         padding-top: 0px;
@@ -89,6 +114,27 @@
     .top-margined {
         margin-top: 20px;
         font-family: var(--font-family-inter);
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .logoimg {
+        position: absolute;
+        top: 0px;
+        height: 9vw;
+        width: 9vw;
+        /*  width: 180px;
+        height: 180px;
+        */
+    }
+    .inter-normal-black-52px {
+        font-size: 3vw;
+    }
+    .label-text {
+        font-size: 1vw;
+    }
+    #leftindented {
+        padding-left: 10vw
     }
 }
 
@@ -154,15 +200,6 @@ header {
     background-color: #C32032;
 }
 
-.logoimg {
-    position: absolute;
-    top: 0px;
-    height: 9vw;
-    width: 9vw;
-    /*  width: 180px;
-    height: 180px;
-    */
-}
 
 .main-content {
     word-wrap: normal;
@@ -189,16 +226,10 @@ header {
     z-index: 9999;
 }
 
-
-#leftindented {
-    padding-left: 10vw
-}
-
 #navigationbar ul {
     display: flex;
     justify-content: left;
     padding-top: 0.5vw;
-    padding-left: 10vw;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
