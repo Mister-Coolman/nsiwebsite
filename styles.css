@@ -123,7 +123,7 @@ header {
     background-color: #C32032;
 }
 
-img {
+.logoimg {
     position: absolute;
     top: 0px;
     height: 9vw;
@@ -256,16 +256,25 @@ li a:hover {
     width: 134px;
 }
 
+.aboutmeitem .aboutmeimage {
+    border-radius: 15px;
+    height: 134px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 134px;
+}
+
 .aboutmeitem .aboutmebody {
     color: #000000;
     font-family: var(--font-family-inter);
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 400;
     left: 153px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 53px;
+    top: 45px;
     width: 182px;
 }
 
@@ -345,3 +354,4 @@ iframe {
     height: 800px;
     border: 1px solid black;
 }
+
