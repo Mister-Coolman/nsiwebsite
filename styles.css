@@ -211,7 +211,6 @@ li a:hover {
 
 #landing {
     background: #E0DCDC;
-    height: 100vh;
 }
 
 .aboutmesection {
@@ -233,7 +232,7 @@ li a:hover {
     background-color: #ffffff;
     border-radius: 15px;
     height: 153px;
-    width: 360px;
+    width: 350px;
 }
 
 .aboutmeitem .overlap {
@@ -257,7 +256,7 @@ li a:hover {
     font-family: var(--font-family-inter);
     font-size: 24px;
     font-weight: 400;
-    left: 152px;
+    left: 142px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -289,14 +288,18 @@ li a:hover {
     font-family: var(--font-family-inter);
     font-size: 12px;
     font-weight: 400;
-    left: 155px;
+    left: 145px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 47px;
+    top: 44px;
     width: 186px;
 }
 
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
 
 .allgroups {
     display: flex;
