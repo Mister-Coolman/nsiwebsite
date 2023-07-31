@@ -64,7 +64,7 @@
     .top-margined {
         margin-top: 15px;
     }
-    #leftindented {
+    .leftindented {
         padding-left: 10vw
     }
 }
@@ -85,7 +85,7 @@
     .label-text {
         font-size: 2vw;
     }
-    #leftindented {
+    .leftindented {
         padding-left: 12.2vw
     }
 }
@@ -133,7 +133,7 @@
     .label-text {
         font-size: 1vw;
     }
-    #leftindented {
+    .leftindented {
         padding-left: 10vw
     }
 }
@@ -214,7 +214,7 @@ header {
 
 /* @media screen and (min-width: 0px) and (max-width: 799px) {
     .hide-on-small { display: none;}
-  } */
+} */
 
 #navigationbar .navcontainer {
     padding: 0px 0px;
@@ -355,7 +355,7 @@ li a:hover {
     height: 194px;
     position: relative;
     width: 205px;
-  }
+}
 
 .group .groupname {
     color: #000000;
@@ -394,28 +394,31 @@ li a:hover {
 }
 
 .group .team4 {
-        position: absolute;
-        top: 152px;
+    position: absolute;
+    top: 152px;
 }
 
 .group .team3 {
-        position: absolute;
-        top: 122px;
+    position: absolute;
+    top: 122px;
 }
 
 .group .team2 {
-        position: absolute;
-        top: 92px;
+    position: absolute;
+    top: 92px;
 }
 
 .group .team1 {
-        position: absolute;
-        top: 62px;
+    position: absolute;
+    top: 62px;
 }
 
 iframe {
-    width: 100%;
-    height: 800px;
-    border: 1px solid black;
+width: 100%;
+height: 800px;
+border: 1px solid black;
 }
 
+.center-align {
+    text-align: center;
+}
