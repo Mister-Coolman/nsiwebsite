@@ -39,6 +39,10 @@
         font-family: var(--font-family-inter);
     }
 
+    h1 {
+        font-size: 3em;
+    }
+
     .label-text {
         font-size: 0.8em;
     }
@@ -50,6 +54,10 @@
     }
     .title-text {
         font-size: 18px;
+        font-family: var(--font-family-inter);
+    }
+    .congrats-text {
+        font-size: 22px;
         font-family: var(--font-family-inter);
     }
     .team-text {
@@ -115,6 +123,10 @@
         margin-top: 20px;
         font-family: var(--font-family-inter);
     }
+    .congrats-text {
+        font-size: 40px;
+        font-family: var(--font-family-inter);
+    }
 }
 
 @media screen and (min-width: 1441px) {
@@ -136,6 +148,11 @@
     .leftindented {
         padding-left: 10vw
     }
+}
+
+h1 {
+    font-family: var(--font-family-inter);
+    text-align: center;
 }
 
 .inter-normal-black-52px {
@@ -414,9 +431,11 @@ li a:hover {
 }
 
 iframe {
-width: 100%;
-height: 800px;
-border: 1px solid black;
+    overflow-clip-margin: content-box !important;
+    width: 100%;
+    height: 800px;
+    border: 1px solid black;
+    overflow: clip !important;
 }
 
 .center-align {
