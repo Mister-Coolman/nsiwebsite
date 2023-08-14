@@ -483,40 +483,77 @@ iframe {
     flex-wrap: wrap;
     gap: 5px;
 }
+@media screen and (max-width: 600px) {
+    .moderator-item {
+        background-color: #ffffff;
+        border-radius: 15px;
+        height: 156px;
+        position: relative;
+        width: 173px;
+    }
+    .moderator-item .mod-name {
+        color: #000000;
+        font-family: var(--font-family-inter);
+        font-size: 20px;
+        font-weight: 400;
+        height: 35px;
+        left: 0;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 17px;
+        width: 173px;
+    }
 
-.moderator-item {
-    background-color: #ffffff;
-    border-radius: 15px;
-    height: 156px;
-    position: relative;
-    width: 173px;
+    .moderator-item .mod-desc {
+        color: #000000;
+        font-family: var(--font-family-inter);
+        font-size: 14px;
+        font-weight: 400;
+        left: 10px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 50px;
+        width: 153px;
+    }
 }
 
-.moderator-item .mod-name {
-    color: #000000;
-    font-family: var(--font-family-inter);
-    font-size: 20px;
-    font-weight: 400;
-    height: 35px;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 17px;
-    width: 173px;
-}
+@media screen and (min-width: 601px) {
+    .moderator-item {
+        background-color: #ffffff;
+        border-radius: 15px;
+        height: 174px;
+        position: relative;
+        width: 250px;
+    }
 
-.moderator-item .mod-desc {
-    color: #000000;
-    font-family: var(--font-family-inter);
-    font-size: 14px;
-    font-weight: 400;
-    left: 10px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 50px;
-    width: 153px;
-}
+    .moderator-item .mod-name {
+        color: #000000;
+        font-family: var(--font-family-inter);
+        font-size: 28px;
+        font-weight: 400;
+        height: 40px;
+        left: 0;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 15px;
+        width: 250px;
+    }
 
+    .moderator-item .mod-desc {
+        color: #000000;
+        font-family: var(--font-family-inter);
+        font-size: 18px;
+        font-weight: 400;
+        left: 15px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 56px;
+        width: 222.5px;
+    }
+}
