@@ -482,6 +482,7 @@ iframe {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
+    justify-content: center;
 }
 @media screen and (max-width: 600px) {
     .moderator-item {
