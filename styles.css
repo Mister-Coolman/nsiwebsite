@@ -44,7 +44,7 @@
     }
 
     .label-text {
-        font-size: 0.8em;
+        font-size: 0.65em;
     }
 
     .constant-text {
@@ -74,6 +74,13 @@
     }
     .leftindented {
         padding-left: 10vw
+    }
+    .packets-list.round-robin {
+        width: 100%;
+    }
+
+    .packets-list.single-elim {
+        width: 100%;
     }
 }
 
@@ -126,6 +133,18 @@
     .congrats-text {
         font-size: 40px;
         font-family: var(--font-family-inter);
+    }
+    .all-packets {
+        display: flex;
+    }
+    .packets-list.round-robin {
+        left: 0px;
+        width: 50%;
+    }
+
+    .packets-list.single-elim {
+        left: 50%;
+        width: 50%;
     }
 }
 
@@ -263,7 +282,7 @@ header {
     text-align: center;
 }
 
-li a:hover {
+#navigationbar li a:hover {
     border-top: solid 3px rgba(144, 20, 28, 1);
 }
 
@@ -441,3 +460,63 @@ iframe {
 .center-align {
     text-align: center;
 }
+
+.packets-list {
+    padding-left: 0;
+}
+
+.packets-list li a {
+    color: var(--cardinal);
+    text-decoration: none;
+}
+
+.packets-list li {
+    text-align: center;
+}
+
+.packets-list .title-text {
+    margin-top: .2em;
+}
+
+.allmoderators {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.moderator-item {
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 156px;
+    position: relative;
+    width: 173px;
+}
+
+.moderator-item .mod-name {
+    color: #000000;
+    font-family: var(--font-family-inter);
+    font-size: 20px;
+    font-weight: 400;
+    height: 35px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 17px;
+    width: 173px;
+}
+
+.moderator-item .mod-desc {
+    color: #000000;
+    font-family: var(--font-family-inter);
+    font-size: 14px;
+    font-weight: 400;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 50px;
+    width: 153px;
+}
+
