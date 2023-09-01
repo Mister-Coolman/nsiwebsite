@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Inter:400|Roboto:500");
+@import url("https://fonts.googleapis.com/css?family=Inter:400|Roboto:500|Inter:wght@700&display=swap");
 
 * {
     padding: 0px;
@@ -44,7 +44,7 @@
     }
 
     .label-text {
-        font-size: 0.65em;
+        font-size: 0.58em;
     }
 
     .constant-text {
@@ -238,6 +238,7 @@ header {
 
 
 .main-content {
+    padding-top: 10px;
     word-wrap: normal;
     font-size: 1.5vw;
     background-color: transparent;
@@ -280,10 +281,13 @@ header {
     text-decoration: none;
     color: #000;
     text-align: center;
+    display: block;
+    transition: transform 1s;
 }
 
 #navigationbar li a:hover {
     border-top: solid 3px rgba(144, 20, 28, 1);
+    transform: scale(1.1);
 }
 
 #landing {
@@ -557,4 +561,73 @@ iframe {
         top: 56px;
         width: 222.5px;
     }
+}
+@media screen and (min-width: 1441px) {
+    .congrats {
+        background-color: #90141c;
+        border-radius: 30px;
+        height: 180px;
+        position: relative;
+        width: 1440px;
+        padding-top: 10px;
+    }
+
+    .congrats .winner-text {
+        color: #ffffff;
+        font-family: var(--font-family-inter);
+        font-size: 54px;
+        font-weight: 400;
+        height: 136px;
+        left: 263px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 21px;
+        width: 914px;
+    }
+
+    .congrats .text-wrapper {
+        color: #ffffff;
+        font-family: var(--font-family-inter);
+        font-size: 54px;
+        font-weight: 400;
+        letter-spacing: 0;
+    }
+}
+
+@media screen and (max-width: 1441px) {
+    .congrats {
+        background-color: #90141c;
+        border-radius: 30px;
+        position: relative;
+        width: 95%;
+        padding-top: 10px;
+        padding-bottom: 1px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .congrats .winner-text {
+        color: #ffffff;
+        font-family: var(--font-family-inter);
+        font-size: 4.75vw;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .congrats .text-wrapper {
+        color: #ffffff;
+        font-family: var(--font-family-inter);
+        font-size: 54px;
+        font-weight: 400;
+        letter-spacing: 0;
+    }
+}
+.congrats .span {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
 }
