@@ -27,6 +27,14 @@
                         document.querySelector('#specialclick').innerHTML = "Creator of this website, Tournament Director, Stats Manager and Vice President of Niskayuna Science Bowl. Apologies for issues with the website, my web design skills are...";
                     }
                 });
+                const toSnow = document.querySelector('.congrats');
+                for (var i = 0; i < 50; i++) {
+                    let snowDiv = document.createElement('div');
+                    snowDiv.classList.add('snowCircle');
+                    snowDiv.style.left = `${Math.floor(Math.random() * 100)}%`;
+                    snowDiv.style.animation = `snowAnim ${Math.floor(Math.random() * 10 + 1)}s ${Math.floor(Math.random() * 10)}s linear infinite`;
+                    toSnow.appendChild(snowDiv);
+                }
             });
         </script>
     </head>
@@ -79,10 +87,11 @@
                 <nav id="navigationbar">
                     <ul class="label-text leftindented">
                         <li><a href="../../">Home</a></li>
-                        <li><a href="/niskayuna-tournaments/nwi-2024/">NWI Home</a></li>
+                        <li><a href="/">NWI Home</a></li>
                         <li><a href="rules">Rules</a></li>
                         <li><a href="results">Results</a></li>
                         <li><a href="statistics">Statistics</a></li>
+                        <li><a href="packets">Packets</a></li>
                         <li><a href="team">Our Team</a></li>
                     </ul>
                 </nav>
@@ -92,9 +101,18 @@
             <div class="container">
                 <div class="main-content">
                     <p class="welcome-text top-margined center-align">Welcome to the Niskayuna Winter Invitational Website!</p>
-                    <p class="title-text"><b>The Niskayuna Winter Invitational Will Take Place On: </b>Sunday, January 14th 2024</p>
-                    <a href="https://logwork.com/countdown-4ru9" class="countdown-timer" data-style="flip2" data-timezone="America/New_York" data-date="2024-01-14 10:00" data-background="#38b6ff" data-digitscolor="#ffffff">Countdown Timer</a>
-                    <p class="constant-text">Featuring 32 teams, the Niskayuna Winter Invitational is the highly anticipated sequel to the successful Niskayuna Summer Invitational. NWI participants can find all tournament-related information here on the website, or in our <a href=https://discord.gg/gFCVnECwzy>discord server.</a> If you have any questions, do not hesitate to reach out to us at <a href="mailto: niskyscibowl@gmail.com">niskyscibowl@gmail.com</a>.</p>
+                    <p class="title-text"><b>The Niskayuna Winter Invitational Took Place On: </b>Sunday, January 14th 2024</p>
+                    <div class="congrats">
+                        <div class="snowCircle"></div>
+                        <p class="winner-text">
+                            <span class="winner-text-wrapper">
+                                <a class="link-text">Congrats to our Winner</a>
+                                <br />
+                            </span>
+                            <a><span class="winner-text-team link-text"><b>North Hollywood High School!</b></span></a>
+                        </p>
+                    </div>
+                    <p class="constant-text">Featuring 32 teams, the Niskayuna Winter Invitational was the highly anticipated sequel to the successful Niskayuna Summer Invitational. Detailed results of the tournament can be found in the<a href="results"> results page.</a> If you have any questions, do not hesitate to reach out to us at <a href="mailto: niskyscibowl@gmail.com">niskyscibowl@gmail.com</a>.</p>
                     <p class="center-align title-text">Tournament Directors & Administrators</p>
                 </div>
                 <div class="home-page-flex">
@@ -114,7 +132,7 @@
                                     <div class="aboutmename">Daniel Yang</div>
                                     <img class="aboutmeimage" src="images/dyang-bio.png" alt="">
                                 </div>
-                                <p class="aboutmebody">I'm a world history main with a specialization in the Sudanic states. I study biology and erath science in my free time. Running this tournament is like being a teacher in a K-12 one room schoolhouse.</p>
+                                <p class="aboutmebody">I'm a world history main with a specialization in the Sudanic states. I study biology and earth science in my free time. Running this tournament is like being a teacher in a K-12 one room schoolhouse.</p>
                             </div>
                         </div>
                         <div class="aboutmeitem">
