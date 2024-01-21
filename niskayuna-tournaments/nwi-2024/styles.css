@@ -45,7 +45,7 @@
 .label-text {
     font-size: 0.65em;
 }
-    
+
 .constant-text {
     margin-top: 1vh;
     font-size: 2.1em;
@@ -524,10 +524,11 @@ iframe {
 
 .packets-list {
     padding-left: 0;
+    list-style-type: none;
 }
 
 .packets-list li a {
-    color: var(--cardinal);
+    color: #38B6FF;
     text-decoration: none;
 }
 
@@ -751,74 +752,102 @@ iframe {
 }
 
 @media screen and (min-width: 1441px) {
-  .congrats {
-      background-color: #38B6FF;
-      border-radius: 30px;
-      height: 180px;
-      position: relative;
-      width: 1440px;
-      padding-top: 10px;
+    .congrats {
+        background-color: #38B6FF;
+        border-radius: 30px;
+        height: 180px;
+        position: relative;
+        width: 1440px;
+        padding-top: 10px;
+    }
+
+    .congrats .winner-text {
+        color: #ffffff;
+        font-family: var(--font-family-inter);
+        font-size: 54px;
+        font-weight: 400;
+        height: 136px;
+        left: 263px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 21px;
+        width: 914px;
+    }
+
+    .congrats .text-wrapper {
+        color: #ffffff;
+        font-family: var(--font-family-inter);
+        font-size: 54px;
+        font-weight: 400;
+        letter-spacing: 0;
+    }
   }
 
-  .congrats .winner-text {
-      color: #ffffff;
-      font-family: var(--font-family-inter);
-      font-size: 54px;
-      font-weight: 400;
-      height: 136px;
-      left: 263px;
-      letter-spacing: 0;
-      line-height: normal;
-      position: absolute;
-      text-align: center;
-      top: 21px;
-      width: 914px;
+  @media screen and (max-width: 1441px) {
+    .congrats {
+        background-color: #38B6FF;
+        border-radius: 30px;
+        position: relative;
+        width: 95%;
+        padding-top: 10px;
+        padding-bottom: 1px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .congrats .winner-text {
+        color: #ffffff;
+        font-family: var(--font-family-inter);
+        font-size: 4.75vw;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .congrats .text-wrapper {
+        color: #ffffff;
+        font-family: var(--font-family-inter);
+        font-size: 54px;
+        font-weight: 400;
+        letter-spacing: 0;
+    }
+  }
+  .congrats .span {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
   }
 
-  .congrats .text-wrapper {
-      color: #ffffff;
-      font-family: var(--font-family-inter);
-      font-size: 54px;
-      font-weight: 400;
-      letter-spacing: 0;
+  .congrats .link-text {
+    color: #FFFFFF;
   }
+
+.snowCircle {
+    position: absolute;
+    height: 0.4rem;
+    width: 0.4rem;
+    border-radius: 50%;
+    background-color: #FFF;
+    top: 0;
+    opacity: 0;
 }
 
-@media screen and (max-width: 1441px) {
-  .congrats {
-      background-color: #38B6FF;
-      border-radius: 30px;
-      position: relative;
-      width: 95%;
-      padding-top: 10px;
-      padding-bottom: 1px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-  }
-
-  .congrats .winner-text {
-      color: #ffffff;
-      font-family: var(--font-family-inter);
-      font-size: 4.75vw;
-      font-weight: 400;
-      letter-spacing: 0;
-      line-height: normal;
-      text-align: center;
-  }
-
-  .congrats .text-wrapper {
-      color: #ffffff;
-      font-family: var(--font-family-inter);
-      font-size: 54px;
-      font-weight: 400;
-      letter-spacing: 0;
-  }
+@keyframes snowAnim {
+    from {
+        opacity: 0.3;
+        top: 0;
+        transform: rotateZ(0deg);
+    }
+    to {
+        opacity: 0.8;
+        top: 100%;
+        transform: rotateZ(360deg);
+    }
 }
-.congrats .span {
-  font-family: "Inter-Bold", Helvetica;
-  font-weight: 700;
-}
+
 .snowflake {
     color: #fff;
     font-size: 1em;
