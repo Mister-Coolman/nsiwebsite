@@ -29,14 +29,6 @@
                         document.querySelector('#specialclick').innerHTML = "Creator of this website, Vice President of Niskayuna Science Bowl. Apologies for issues with the website, my web design skills are...";
                     }
                 });
-                const toSnow = document.querySelector('.congrats');
-                for (var i = 0; i < 50; i++) {
-                    let snowDiv = document.createElement('div');
-                    snowDiv.classList.add('snowCircle');
-                    snowDiv.style.left = `${Math.floor(Math.random() * 100)}%`;
-                    snowDiv.style.animation = `snowAnim ${Math.floor(Math.random() * 10 + 1)}s ${Math.floor(Math.random() * 10)}s linear infinite`;
-                    toSnow.appendChild(snowDiv);
-                }
             });
         </script>
     </head>
