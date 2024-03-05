@@ -668,7 +668,7 @@ iframe {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 28px;
+        gap: 10px;
         margin-top: 10px;
     }
 }
@@ -718,7 +718,7 @@ iframe {
 
 @media screen and (min-width: 1441px) {
     .congrats {
-        background-color: #38B6FF;
+        background-color: rgba(195, 32, 50, 1);
         border-radius: 30px;
         height: 180px;
         position: relative;
@@ -729,7 +729,7 @@ iframe {
     .congrats .winner-text {
         color: #ffffff;
         font-family: var(--font-family-inter);
-        font-size: 54px;
+        font-size: 50px;
         font-weight: 400;
         height: 136px;
         left: 263px;
@@ -744,7 +744,7 @@ iframe {
     .congrats .text-wrapper {
         color: #ffffff;
         font-family: var(--font-family-inter);
-        font-size: 54px;
+        font-size: 50px;
         font-weight: 400;
         letter-spacing: 0;
     }
@@ -752,7 +752,7 @@ iframe {
 
   @media screen and (max-width: 1441px) {
     .congrats {
-        background-color: #38B6FF;
+        background-color: rgba(195, 32, 50, 1);
         border-radius: 30px;
         position: relative;
         width: 95%;
