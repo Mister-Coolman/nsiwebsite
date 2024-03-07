@@ -789,6 +789,18 @@ iframe {
   .congrats .link-text {
     color: #FFFFFF;
   }
+  .congrats a:link {
+    text-decoration: none;
+  }
+  .congrats a:visited {
+    text-decoration: none;
+  }
+  .congrats a:hover {
+    text-decoration: none;
+  }
+  .congrats a:active {
+    text-decoration: none;
+  }
 
 .snowCircle {
     position: absolute;
