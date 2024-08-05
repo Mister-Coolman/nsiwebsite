@@ -825,3 +825,13 @@ iframe {
         transform: rotateZ(360deg);
     }
 }
+
+
+span.special-underline:hover {
+    color: #c32032;
+    text-decoration: underline;
+}
+span.special-underline a {
+    color: black;
+    text-decoration: none;
+}
