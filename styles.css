@@ -35,7 +35,7 @@
         */
     }
     .inter-normal-black-52px {
-        font-size: 1.2em;
+        font-size: 4vw;
         font-family: var(--font-family-inter);
     }
 
@@ -161,11 +161,14 @@
     .inter-normal-black-52px {
         font-size: 2.5vw;
     }
+    .special-text {
+        font-size: 56px;
+    }
     .label-text {
         font-size: 1vw;
     }
     .leftindented {
-        padding-left: 8vw
+        padding-left: 8vw;
     }
 }
 
@@ -834,4 +837,8 @@ span.special-underline:hover {
 span.special-underline a {
     color: black;
     text-decoration: none;
+}
+
+.all-packets ul {
+    list-style: none;
 }
