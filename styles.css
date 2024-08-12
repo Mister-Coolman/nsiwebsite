@@ -152,8 +152,8 @@
     .logoimg {
         position: absolute;
         top: 2.5px;
-        height: 7.5vw;
-        width: 7.5vw;
+        height: 7.1vw;
+        width: 7.1vw;
         /*  width: 180px;
         height: 180px;
         */
@@ -168,7 +168,7 @@
         font-size: 1vw;
     }
     .leftindented {
-        padding-left: 8vw;
+        padding-left: 7.7vw;
     }
 }
 
