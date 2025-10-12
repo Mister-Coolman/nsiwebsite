@@ -55,6 +55,7 @@
     .title-text {
         font-size: 18px;
         font-family: var(--font-family-inter);
+        flex: 0 0 100%;
     }
     .congrats-text {
         font-size: 22px;
@@ -120,6 +121,7 @@
     .title-text {
         font-size: 32px;
         font-family: var(--font-family-inter);
+        flex: 0 0 100%;
     }
     .welcome-text {
         padding-top: 20px;
